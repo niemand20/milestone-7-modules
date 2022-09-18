@@ -3,9 +3,12 @@ function doSomething(){
 }
 console.log("first");
 console.log("second");
-setTimeout(()=>{
+// setTimeout(()=>{
+//     console.log("third")
+// })
+const timeoutId = setTimeout(()=>{
     console.log("third")
-})
+},5000)
 // setTimeout(doSomething, 2000);
 // console.log("third");
 
